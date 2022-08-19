@@ -4,7 +4,7 @@
 #SELECT * FROM customer limit 5;
 SELECT
   quarter,
-  COUNT(DISTINCT(customerID)) AS total_customer
+  COUNT(DISTINCT(customerID)) AS total_customers
 FROM
   (
     SELECT
